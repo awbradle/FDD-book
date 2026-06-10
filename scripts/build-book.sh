@@ -396,7 +396,7 @@ test_dependencies() {
         echo "   ✓ Template size: $template_size"
     else
         echo "   ✗ Eisvogel template not found at: $EISVOGEL_TEMPLATE"
-        echo "   💡 Install with: wget -O $EISVOGEL_TEMPLATE https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex"
+        echo "   💡 Follow installation instructions: https://github.com/Wandmalfarbe/pandoc-latex-template#installation"
         all_good=false
     fi
 
